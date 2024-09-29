@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario de Personajes Cortes Sanchez Clara Abigail</title>
+        <style>
+            form {
+                width: 50%;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid black;
+                background-color: #D7DEF1;
+            }
+            label { 
+                font-weight: bold;
+            }
+            input, select { 
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            input [type="submit"] {
+                background-color: #B1CFEB;
+                color: antiquewhite;
+                padding: 10px;
+                cursor: all-scroll;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Formulario de Registro de Personajes</h1>
+        <form>
+            <label for="tipo">Tipo de Personaje:</label>
+            <input type="text" id="Nombre" name="Nombre">
+
+            <label for="tipo">Tipo de Personajes</label>
+            <select id="tipo" name="tipo">
+                <option value="tata">Tata</option>
+                <option value="Cooky">Cooky</option>
+            </select>
+            <label for="cute">¿Esta cute?</label>
+            <input type="radio" id="bonito" name="cute" value="bonito"> Bonito
+            <input type="radio" id="feo" name="cute" value="feo"> Feo
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

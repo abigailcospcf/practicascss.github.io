@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario con Subida de Imagen Cortes Sanchez Clara Abigail</title>
+        <style>
+            form { 
+                width: 50%;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid black;
+                background-color: #c8e6c9;
+            }
+        </style>
+    </head>
+    <body>
+    <h1>Subir Información del Personaje</h1>
+    <form action="Personajes.html" method="get" enctype="multipart/form-data">
+        <label for="nombre">Escribe tu nombre</label>
+        <input type="text" id="nombre" name="nombre"> <br> <br>
+    
+        <label for="cetgoria">Personajes</label>
+        <select name="cetgoria" id="cetgoria">
+        <option value="tata">Tata</option>
+        <option value="bt21">Cooky</option>
+        </select><br><br>
+
+        <label for="imagen">Subir imagen</label>
+        <input type="file" id="imagen" name="imagen"><br><br>
+        <input type="submit" value="enviar">
+    </form>
+    </body>
+</html>
